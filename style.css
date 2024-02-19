@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(4, 138, 138, 0.781);
+}
+#container {
+    width: 300px;
+    margin: 200px auto;
+    padding: 15px;
+    text-align: center;
+    background: teal;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #092511;
+
+}
+#container h1 {
+    color: gold;
+}
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: teal;
+    font-weight: bolder;
+}
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: teal;
+    background-color: white;
+    font-weight: bolder;
+}
+button {
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: gold;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
